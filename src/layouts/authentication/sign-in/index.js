@@ -6,7 +6,6 @@ import SoftTypography from "components/SoftTypography";
 import SoftInput from "components/SoftInput";
 import SoftButton from "components/SoftButton";
 import CoverLayout from "layouts/authentication/components/CoverLayout";
-import curved9 from "assets/images/curved-images/curved-6.jpg";
 
 function SignIn() {
   const [rememberMe, setRememberMe] = useState(true);
@@ -15,9 +14,8 @@ function SignIn() {
 
   return (
     <CoverLayout
-      title="Welcome back"
-      description="Enter your email and password to sign in"
-      image={curved9}
+      title="Bienvenue"
+      description="Completer votre identité pour acceder à votre espace"
     >
       <SoftBox component="form" role="form">
         <SoftBox mb={2}>
@@ -31,7 +29,7 @@ function SignIn() {
         <SoftBox mb={2}>
           <SoftBox mb={1} ml={0.5}>
             <SoftTypography component="label" variant="caption" fontWeight="bold">
-              Password
+              Mot de Passe
             </SoftTypography>
           </SoftBox>
           <SoftInput type="password" placeholder="Password" />
@@ -44,17 +42,17 @@ function SignIn() {
             onClick={handleSetRememberMe}
             sx={{ cursor: "pointer", userSelect: "none" }}
           >
-            &nbsp;&nbsp;Remember me
+            &nbsp;&nbsp;Souvenir de moi
           </SoftTypography>
         </SoftBox>
         <SoftBox mt={4} mb={1}>
           <SoftButton variant="gradient" color="info" fullWidth>
-            sign in
+            Connecté
           </SoftButton>
         </SoftBox>
         <SoftBox mt={3} textAlign="center">
           <SoftTypography variant="button" color="text" fontWeight="regular">
-            Don&apos;t have an account?{" "}
+            Ne possedez pas d&apos;un compte? {" "}
             <SoftTypography
               component={Link}
               to="/authentication/sign-up"
@@ -63,7 +61,7 @@ function SignIn() {
               fontWeight="medium"
               textGradient
             >
-              Sign up
+              Creer
             </SoftTypography>
           </SoftTypography>
         </SoftBox>
