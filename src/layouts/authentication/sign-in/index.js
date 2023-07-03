@@ -50,21 +50,6 @@ function SignIn() {
             Connecté
           </SoftButton>
         </SoftBox>
-        <SoftBox mt={3} textAlign="center">
-          <SoftTypography variant="button" color="text" fontWeight="regular">
-            Ne possedez pas d&apos;un compte? {" "}
-            <SoftTypography
-              component={Link}
-              to="/authentication/sign-up"
-              variant="button"
-              color="info"
-              fontWeight="medium"
-              textGradient
-            >
-              Creer
-            </SoftTypography>
-          </SoftTypography>
-        </SoftBox>
       </SoftBox>
     </CoverLayout>
   );
