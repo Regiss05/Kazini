@@ -16,7 +16,7 @@ function CoverLayout({ color, header, title, description, image, top, children }
         }}
       >
         <Grid item xs={11} sm={8} md={5} xl={3}>
-          <SoftBox mt="13rem">
+          <SoftBox mt="1rem">
             <SoftBox>
               {!header ? (
                 <>
