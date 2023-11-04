@@ -55,25 +55,6 @@ function Footer({ company, links }) {
         </Link>
         for a better web.
       </SoftBox>
-      <SoftBox
-        component="ul"
-        sx={({ breakpoints }) => ({
-          display: "flex",
-          flexWrap: "wrap",
-          alignItems: "center",
-          justifyContent: "center",
-          listStyle: "none",
-          mt: 3,
-          mb: 0,
-          p: 0,
-
-          [breakpoints.up("lg")]: {
-            mt: 0,
-          },
-        })}
-      >
-        {renderLinks()}
-      </SoftBox>
     </SoftBox>
   );
 }

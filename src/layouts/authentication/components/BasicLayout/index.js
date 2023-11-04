@@ -2,13 +2,17 @@ import PropTypes from "prop-types";
 import Grid from "@mui/material/Grid";
 import SoftBox from "components/SoftBox";
 import SoftTypography from "components/SoftTypography";
+<<<<<<< HEAD
+=======
 // import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+>>>>>>> 7040f9fafb17ba758b132afca5f4591b85fde150
 import PageLayout from "examples/LayoutContainers/PageLayout";
-import Footer from "layouts/authentication/components/Footer";
 
 function BasicLayout({ title, description, image, children }) {
   return (
     <PageLayout>
+<<<<<<< HEAD
+=======
       {/* <DefaultNavbar
         action={{
           type: "external",
@@ -18,6 +22,7 @@ function BasicLayout({ title, description, image, children }) {
         transparent
         light
       /> */}
+>>>>>>> 7040f9fafb17ba758b132afca5f4591b85fde150
       <SoftBox
         width="calc(100% - 2rem)"
         minHeight="50vh"
@@ -60,7 +65,6 @@ function BasicLayout({ title, description, image, children }) {
           </Grid>
         </Grid>
       </SoftBox>
-      <Footer />
     </PageLayout>
   );
 }

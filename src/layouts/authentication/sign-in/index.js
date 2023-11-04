@@ -31,7 +31,7 @@ function SignIn() {
         <SoftBox mb={2}>
           <SoftBox mb={1} ml={0.5}>
             <SoftTypography component="label" variant="caption" fontWeight="bold">
-              Password
+              Mot de Passe
             </SoftTypography>
           </SoftBox>
           <SoftInput type="password" placeholder="Password" />
@@ -44,7 +44,7 @@ function SignIn() {
             onClick={handleSetRememberMe}
             sx={{ cursor: "pointer", userSelect: "none" }}
           >
-            &nbsp;&nbsp;Remember me
+            &nbsp;&nbsp;Souvenir de moi
           </SoftTypography>
         </SoftBox>
         <SoftBox mt={4} mb={1}>

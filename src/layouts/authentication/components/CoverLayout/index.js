@@ -3,7 +3,6 @@ import Grid from "@mui/material/Grid";
 import SoftBox from "components/SoftBox";
 import SoftTypography from "components/SoftTypography";
 import PageLayout from "examples/LayoutContainers/PageLayout";
-import Footer from "layouts/authentication/components/Footer";
 
 function CoverLayout({ color, header, title, description, image, top, children }) {
   return (
@@ -42,21 +41,20 @@ function CoverLayout({ color, header, title, description, image, top, children }
             height="100%"
             display={{ xs: "none", md: "block" }}
             position="relative"
-            right={{ md: "-10rem", xl: "-12rem" }}
+            right={{ md: "-12rem", xl: "-14rem" }}
           >
             <SoftBox
               height="100%"
               sx={{
                 backgroundImage: `url(${image})`,
-                backgroundSize: "80%",
+                backgroundSize: "60%",
                 backgroundRepeat: "no-repeat",
-                backgroundPosition: "0 80%",
+                backgroundPosition: "2rem 10rem",
               }}
             />
           </SoftBox>
         </Grid>
       </Grid>
-      <Footer />
     </PageLayout>
   );
 }
