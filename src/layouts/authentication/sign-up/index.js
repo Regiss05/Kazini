@@ -25,13 +25,9 @@ function SignUp() {
       <Card>
         <SoftBox p={3} mb={1} textAlign="center">
           <SoftTypography variant="h5" fontWeight="medium">
-            Register with
+            Register Your Account
           </SoftTypography>
         </SoftBox>
-        <SoftBox mb={2}>
-          <Socials />
-        </SoftBox>
-        <Separator />
         <SoftBox pt={2} pb={3} px={3}>
           <SoftBox component="form" role="form">
             <SoftBox mb={2}>
@@ -68,6 +64,11 @@ function SignUp() {
                 sign up
               </SoftButton>
             </SoftBox>
+            <Separator />
+            <SoftBox mb={2}>
+          <Socials />
+        </SoftBox>
+
             <SoftBox mt={3} textAlign="center">
               <SoftTypography variant="button" color="text" fontWeight="regular">
                 Already have an account?&nbsp;

@@ -2,14 +2,14 @@ import PropTypes from "prop-types";
 import Grid from "@mui/material/Grid";
 import SoftBox from "components/SoftBox";
 import SoftTypography from "components/SoftTypography";
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+// import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import PageLayout from "examples/LayoutContainers/PageLayout";
 import Footer from "layouts/authentication/components/Footer";
 
 function BasicLayout({ title, description, image, children }) {
   return (
     <PageLayout>
-      <DefaultNavbar
+      {/* <DefaultNavbar
         action={{
           type: "external",
           route: "https://creative-tim.com/product/soft-ui-dashboard-react",
@@ -17,7 +17,7 @@ function BasicLayout({ title, description, image, children }) {
         }}
         transparent
         light
-      />
+      /> */}
       <SoftBox
         width="calc(100% - 2rem)"
         minHeight="50vh"

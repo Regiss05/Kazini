@@ -6,7 +6,7 @@ import SoftTypography from "components/SoftTypography";
 import SoftInput from "components/SoftInput";
 import SoftButton from "components/SoftButton";
 import CoverLayout from "layouts/authentication/components/CoverLayout";
-import curved9 from "assets/images/curved-images/curved-6.jpg";
+import Logosiib from "assets/images/curved-images/logo-siib.png";
 
 function SignIn() {
   const [rememberMe, setRememberMe] = useState(true);
@@ -17,7 +17,7 @@ function SignIn() {
     <CoverLayout
       title="Welcome back"
       description="Enter your email and password to sign in"
-      image={curved9}
+      image={Logosiib}
     >
       <SoftBox component="form" role="form">
         <SoftBox mb={2}>
@@ -48,7 +48,7 @@ function SignIn() {
           </SoftTypography>
         </SoftBox>
         <SoftBox mt={4} mb={1}>
-          <SoftButton variant="gradient" color="info" fullWidth>
+          <SoftButton variant="gradient" color="primary" fullWidth>
             sign in
           </SoftButton>
         </SoftBox>
@@ -59,7 +59,7 @@ function SignIn() {
               component={Link}
               to="/authentication/sign-up"
               variant="button"
-              color="info"
+              color="secondary"
               fontWeight="medium"
               textGradient
             >
