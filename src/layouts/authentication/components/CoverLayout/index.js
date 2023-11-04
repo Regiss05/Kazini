@@ -16,7 +16,7 @@ function CoverLayout({ color, header, title, description, image, top, children }
         }}
       >
         <Grid item xs={11} sm={8} md={5} xl={3}>
-          <SoftBox mt="50%">
+          <SoftBox mt="13rem">
             <SoftBox>
               {!header ? (
                 <>
@@ -41,15 +41,15 @@ function CoverLayout({ color, header, title, description, image, top, children }
             height="100%"
             display={{ xs: "none", md: "block" }}
             position="relative"
-            right={{ md: "-10rem", xl: "-12rem" }}
+            right={{ md: "-12rem", xl: "-14rem" }}
           >
             <SoftBox
               height="100%"
               sx={{
                 backgroundImage: `url(${image})`,
-                backgroundSize: "80%",
+                backgroundSize: "60%",
                 backgroundRepeat: "no-repeat",
-                backgroundPosition: "0 80%",
+                backgroundPosition: "2rem 10rem",
               }}
             />
           </SoftBox>
