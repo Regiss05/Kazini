@@ -13,7 +13,6 @@ import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
 import routes from "routes";
 import { useSoftUIController, setMiniSidenav, setOpenConfigurator } from "context";
-import brand from "assets/images/logo-ct.png";
 
 export default function App() {
   const [controller, dispatch] = useSoftUIController();
@@ -101,8 +100,7 @@ export default function App() {
           <>
             <Sidenav
               color={sidenavColor}
-              brand={brand}
-              brandName="Soft UI Dashboard"
+              brandName="KAZINI.COM"
               routes={routes}
               onMouseEnter={handleOnMouseEnter}
               onMouseLeave={handleOnMouseLeave}
@@ -125,8 +123,7 @@ export default function App() {
         <>
           <Sidenav
             color={sidenavColor}
-            brand={brand}
-            brandName="Soft UI Dashboard"
+            brandName="KAZINI.COM"
             routes={routes}
             onMouseEnter={handleOnMouseEnter}
             onMouseLeave={handleOnMouseLeave}

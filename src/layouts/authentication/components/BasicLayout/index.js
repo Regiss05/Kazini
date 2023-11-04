@@ -2,11 +2,27 @@ import PropTypes from "prop-types";
 import Grid from "@mui/material/Grid";
 import SoftBox from "components/SoftBox";
 import SoftTypography from "components/SoftTypography";
+<<<<<<< HEAD
+=======
+// import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+>>>>>>> 7040f9fafb17ba758b132afca5f4591b85fde150
 import PageLayout from "examples/LayoutContainers/PageLayout";
 
 function BasicLayout({ title, description, image, children }) {
   return (
     <PageLayout>
+<<<<<<< HEAD
+=======
+      {/* <DefaultNavbar
+        action={{
+          type: "external",
+          route: "https://creative-tim.com/product/soft-ui-dashboard-react",
+          label: "free download",
+        }}
+        transparent
+        light
+      /> */}
+>>>>>>> 7040f9fafb17ba758b132afca5f4591b85fde150
       <SoftBox
         width="calc(100% - 2rem)"
         minHeight="50vh"
