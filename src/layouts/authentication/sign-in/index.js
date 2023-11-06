@@ -6,7 +6,7 @@ import SoftTypography from "components/SoftTypography";
 import SoftInput from "components/SoftInput";
 import SoftButton from "components/SoftButton";
 import CoverLayout from "layouts/authentication/components/CoverLayout";
-import Logosiib from "assets/images/curved-images/logo-siib.png";
+// import Logosiib from "assets/images/curved-images/logo-siib.png";
 
 function SignIn() {
   const [rememberMe, setRememberMe] = useState(true);
@@ -17,7 +17,7 @@ function SignIn() {
     <CoverLayout
       title="Welcome back"
       description="Enter your email and password to sign in"
-      image={Logosiib}
+      // image={Logosiib}
     >
       <SoftBox component="form" role="form">
         <SoftBox mb={2}>
